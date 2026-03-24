@@ -1,0 +1,38 @@
+Reproducible Instructions
+
+Follow the steps below to reproduce the results of this project.
+
+1. Clone the GitHub repository
+
+git clone https://github.com/YOUR_USERNAME/Environmental-Sound-Classification.git
+
+
+2. Navigate to the project folder
+
+cd Environmental-Sound-Classification
+
+
+3. Install required dependencies
+
+pip install -r requirements.txt
+
+
+4. Open the notebook
+
+notebook/sound_classifier.ipynb
+
+
+5. Run all cells sequentially.
+
+The notebook will automatically:
+- download and prepare the dataset
+- preprocess the audio files
+- extract acoustic features
+- train the machine learning model
+- generate prediction outputs
+
+
+6. The following output files will be produced:
+
+Pr_12_model.joblib
+Pr_12_predictions.csv
