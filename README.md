@@ -74,12 +74,13 @@ Advantages:
 - Strong performance for audio feature vectors
 
 Model configuration:
-
-- `n_estimators = 3000`
+- `n_estimators = 80`
+- `max_depth = 20`
+- `min_samples_split = 5`
+- `min_samples_leaf = 2`
 - `max_features = 'sqrt'`
-- `min_samples_split = 2`
-- `min_samples_leaf = 1`
-- `bootstrap = False`
+- `random_state = 42`
+- `n_jobs = -1`
 
 ---
 
